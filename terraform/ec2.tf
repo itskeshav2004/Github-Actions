@@ -3,3 +3,5 @@ resource "aws_instance" "testec2" {
   instance_type = "t2.micro"
   vpc_security_group_ids = [ "sg-0f373b7b728dbf768" ]
 }
+
+##
